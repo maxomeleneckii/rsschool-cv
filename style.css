@@ -231,17 +231,23 @@ body {
   background-color: transparent;
   font-weight: 900;
   background: linear-gradient(to bottom, rgb(231, 231, 231) 0%, rgb(221, 221, 221) 100%);
+  font-size: 18px;
 }
 .body-type {
   padding: 25px;
   line-height: 20px;
   text-align: justify;
 }
-.body-type_higher {
+.body-type_education {
   display: flex;
 }
-.body-type_online {
-  display: flex;
+.body-type_years {
+  max-width: 250px;
+  width: 100%;
+}
+.body-type h4 {
+  font-weight: 700;
+  text-decoration: underline;
 }
 .body-type .video {
   color: blue;

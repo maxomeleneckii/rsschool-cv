@@ -9,6 +9,9 @@
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/atelier-estuary-light.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   <title>CV</title>
 </head>
 <body>
@@ -63,8 +66,8 @@
               </div>
               <div class="body-type">
                 <h4>Higher Education</h4><br>
-                <div class="body-type_higher">
-                  <div>
+                <div class="body-type_higher body-type_education">
+                  <div class="body-type_years">
                     <p>2014 — 2019</p>
                   </div>
                   <div>
@@ -75,13 +78,14 @@
                   </div>
                 </div>
                 <h4>Online learning</h4><br>
-                <div class="body-type_online">
-                  <div>
+                <div class="body-type_online body-type_education">
+                  <div class="body-type_years">
                     <p>Summer 2021 — Winter 2021</p>
                   </div>
                   <div>
                     <p><b>Profession:</b> JS/Front-end developer</p>
                     <p><b>Learning platform:</b> The Rolling Scopes School</p>
+                    <p><b>Stages:</b> Stage 0 — Start Stage 2</p>
                   </div>
                 </div>
               </div>
@@ -91,8 +95,7 @@
                 <h3 id="experience">Experience:</h3>
               </div>
               <div class="body-type">
-                <p>I have no experience in IT, but I have already passed "stage 0" from rsschool and continue to study there. Below you can see an example of my code and completed projects in my repository.</p>
-                <p><a class="example-cod" target="_blank" href="https://maxomeleneckii.github.io/rsschool-cv/cv">Sample code</a></p><br>
+                <p>I have no experience in IT, but I have already passed "stage 0" and "stage 1" from rsschool and continue to study there. Below you can completed projects in my repository.</p>
                 <p>Completed work on the links:</p>
                 <div class="content__rght__exp-project">
                   <div class="project">
@@ -129,6 +132,26 @@
                     </a>
                   </div>
                 </div>
+              </div>
+            </article>
+            <article class="content__rght__sample">
+              <div class="heading">
+                <h3 id="sample">Sample code:</h3>
+              </div>
+              <div class="body-type">
+                <p>Example of task code on Codewars:</p>
+                <pre>
+                  <code style="background: transparent;">
+          function arithmetic(a, b, operator) {
+            return {
+              add: a + b,
+              subtract: a - b,
+              multiply: a * b,
+              divide: a / b,
+            }[operator];
+          }
+                  </code>
+                </pre>
               </div>
             </article>
             <article class="content__rght__skills">
