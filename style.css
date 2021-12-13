@@ -441,6 +441,7 @@ iframe {
     rgba(238, 238, 238, 1) 100%,
     rgba(127, 127, 127, 1) 101%
   );
+  font-size: 18px;
 }
 .list {
   padding: 25px 25px 25px 10px;
@@ -468,7 +469,7 @@ iframe {
   background: url(Images/free-icon-vk-2111712.svg) left/ 20px no-repeat;
 }
 .content__left__follow__list li:nth-child(3) {
-  background: url(Images/free-icon-viber-185982.svg) left/ 20px no-repeat;
+  background: url(Images/Skype_icon.svg) left/ 20px no-repeat;
 }
 .content__left__follow__list li:nth-child(4) {
   background: url(Images/free-icon-telegram-1216722.svg) left/ 15px no-repeat;
