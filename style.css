@@ -1,4 +1,4 @@
-/* -------------------------------------------Zero Style------------------------------------------- */
+/* -----------Zero Style--------------- */
 * {
   padding: 0;
   margin: 0;
@@ -65,7 +65,7 @@ h6 {
 }
 /*------------------------------------------------------------------------------------------------ */
 
-/* -------------------------------------------Mainspace------------------------------------------- */
+/* -----------------Mainspace--------------------- */
 html {
   scroll-behavior: smooth;
 }
@@ -73,7 +73,7 @@ body {
   font-family: "Lato", "Times New Roman", sans-serif;
   background: linear-gradient(to bottom, rgb(219, 214, 214) 0%, rgb(218, 213, 213) 91%) 0 0/1px 3000px;
 }
-/* -------------------------------------------Workspace------------------------------------------- */
+/* -----------------Workspace------------------ */
 .wrapper {
   display: flex;
   justify-content: center;
@@ -92,7 +92,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-/* -------------------------------------------Header------------------------------------------- */
+/* ----------------Header-------------------- */
 .header {
   display: flex;
   align-items: center;
@@ -183,13 +183,13 @@ body {
 .burger-menu__item::after {
   bottom: 1px;
 }
-/* -------------------------------------------Main content without footer------------------------------------------- */
+/* ------------Main content without footer--------------- */
 .content {
   display: flex;
   flex-direction: row-reverse;
   height: 100%;
 }
-/* -------------------------------------------Right side content------------------------------------------- */
+/* ----------------Right side content------------------- */
 .content__rght {
   flex: 1 1 auto;
   overflow: hidden;
@@ -204,7 +204,7 @@ body {
   justify-content: space-between;
   height: 100%;
 }
-/* -------------------------------------------Heading Name and Profession------------------------------------------- */
+/* ------------Heading Name and Profession------------- */
 .content__rght__tittle {
   font-family: "Poppins", "Lato", "Times New Roman", sans-serif;
   padding: 50px 0 50px 30px;
@@ -224,7 +224,7 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-/* -------------------------------------------About me, Education, Experience------------------------------------------- */
+/* --------About me, Education, Experience---------- */
 .heading {
   padding: 10px 0 10px 30px;
   color: black;
@@ -330,7 +330,7 @@ iframe {
   font-size: 13px;
   color: #000; 
 }
-/* -------------------------------------------Skills------------------------------------------- */
+/* -------------Skills------------------- */
 .content__rght__skills-container {
   display: flex;
   flex: 1 1 auto;
@@ -338,8 +338,8 @@ iframe {
 .content__rght__skills-list {
   padding: 25px;
   position: relative;
-  min-width: 50%;
   min-height: 100%;
+  width: 100%;
 }
 .content__rght__skills-list ul {
   display: flex;
@@ -350,7 +350,7 @@ iframe {
   position: relative;
 }
 .tittle img {
-  width: 10%;
+  width: 20px;
 }
 .tittle-head {
   position: absolute;
@@ -371,46 +371,41 @@ iframe {
 }
 .parcent {
   height: 100%;
-  background-color: rgb(83, 83, 83);
+  background-color: rgb(63, 60, 60);
   color: transparent;
   border-radius: 10px;
 }
 .range-level__parcent-item {
-  width: 60%;
+  width: 80%;
 }
 .range-level__parcent-item2 {
-  width: 60%;
+  width: 70%;
 }
-.range-level__item3 {
+/* .range-level__item3 {
   margin: 0;
-}
+} */
 .range-level__parcent-item3 {
-  width: 15%;
-}
-.content__rght__skills-list2 {
-  padding: 25px;
-  position: relative;
-  min-width: 50%;
-  min-height: 100%;
-}
-.content__rght__skills-list2 ul {
-  display: flex;
-  flex-direction: column;
-  row-gap: 3px;
+  width: 20%;
 }
 .range-level__parcent-rgh {
-  width: 40%;
+  width: 30%;
 }
 .range-level__parcent-rgh2 {
   width: 50%;
 }
-.range-level__item-rgh3 {
-  margin: 0;
-}
 .range-level__parcent-rgh3 {
   width: 20%;
 }
-/* -------------------------------------------Left side content------------------------------------------- */
+.range-level__parcent-rgh4 {
+  width: 30%;
+}
+.range-level__parcent-rgh5 {
+  width: 10%;
+}
+/* .range-level__item-rgh3 {
+  margin: 0;
+} */
+/* ------------Left side content---------- */
 .content__left {
   flex: 1 0 auto;
   overflow: hidden;
@@ -423,12 +418,12 @@ iframe {
   flex-direction: column;
   height: 100%;
  }
-/* -------------------------------------------Avatar------------------------------------------- */
+/* ----------Avatar-------------- */
 .content__left__avatar img {
   width: 100%;
   display: block;
 }
-/* -------------------------------------------Contacts------------------------------------------- */
+/* ------------------Contacts------------- */
 .content__left__tittle {
   padding: 10px 0 10px 30px;
   color: white;
@@ -461,7 +456,7 @@ iframe {
 .content__left__contacts__list li:nth-child(3) {
   background: url(Images/free-icon-envelope-rectangular-outline-variant-29998.svg) left/ 15px no-repeat;
 }
-/* -----------------------------------Fallow me----------------------------------- */
+/* --------Fallow me------------ */
 .content__left__follow__list li:nth-child(1) {
   background: url(Images/free-icon-instagram-2111463.svg) left/ 20px no-repeat;
 }
@@ -474,7 +469,7 @@ iframe {
 .content__left__follow__list li:nth-child(4) {
   background: url(Images/free-icon-telegram-1216722.svg) left/ 15px no-repeat;
 }
-/* -------------------------------------------Languages------------------------------------------- */
+/* ----------Languages----------- */
 .content__left__lang__list li:nth-child(1) {
   background: url(Images/free-icon-russia-197408.svg) left/ 20px no-repeat;
 }
@@ -490,7 +485,7 @@ iframe {
   padding: 0 0 20px 20px;
 }
 
-/* ----------------------Footer--------------------------- */
+/* ----------Footer------------- */
 .footer {
   height: 60px;
   position: relative;
@@ -506,7 +501,7 @@ iframe {
 .footer__link__rss img {
   width: 10%;
 }
-/* ----------------------Burger nav--------------------------- */
+/* --------Burger nav---------- */
 .burger-nav {
   width: 100%;
   height: 100%;
@@ -533,8 +528,8 @@ iframe {
   padding-top: 75px;
 }
 
-/* ----------------------------------------Media query-------------------------------------- */
-/* ------------------------------736px---------------------------- */
+/* ---------Media query-------------- */
+/* ------------736px------------ */
 @media (max-width:736px) {
   .wrapper {
     padding: 0;
@@ -583,7 +578,7 @@ iframe {
     flex: 0 0 200px;
   }
 }
-/* ------------------------------503px---------------------------- */
+/* ----------503px---------- */
 @media (max-width:503px) {
   .navigation-list {
     max-width: 100%;
@@ -623,7 +618,7 @@ iframe {
   }
 }
 
-/* ------------------------------460px---------------------------- */
+/* --------460px---------- */
 @media (max-width:460px) {
   .wrapper{
     padding: 0;
@@ -658,7 +653,7 @@ iframe {
     font-size: 9px;
   }
 }
-/*------------------------------420px---------------------------- */
+/*---------420px---------- */
 @media (max-width:420px) {
   .navigation-list {
     width: 100%;
