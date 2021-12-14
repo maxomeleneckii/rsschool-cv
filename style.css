@@ -487,6 +487,7 @@ iframe {
 
 /* ----------Footer------------- */
 .footer {
+  font-size: 16px;
   height: 60px;
   position: relative;
   border-top: 3px solid rgb(201, 201, 201);
