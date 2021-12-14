@@ -226,12 +226,45 @@ body {
 }
 /* --------About me, Education, Experience---------- */
 .heading {
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 60px;
   color: black;
   background-color: transparent;
   font-weight: 900;
   background: linear-gradient(to bottom, rgb(231, 231, 231) 0%, rgb(221, 221, 221) 100%);
   font-size: 18px;
+}
+.heading__about,
+.heading__education,
+.heading__exp,
+.heading__sample,
+.heading__skills {
+  position: relative;
+}
+.heading__about::before,
+.heading__education::before,
+.heading__exp::before,
+.heading__sample::before,
+.heading__skills::before {
+  display: block;
+  width: 30px;
+  position: absolute;
+  left: -40px;
+  top: -6px;
+}
+.heading__about::before {
+  content: url(Images/aboutme.png);
+}
+.heading__education::before {
+  content: url(Images/education.png);
+}
+.heading__exp::before {
+  content: url(Images/partfolio.svg);
+}
+.heading__sample::before {
+  content: url(Images/sample.png);
+}
+.heading__skills::before {
+  content: url(Images/skill.svg);
 }
 .body-type {
   padding: 25px;
