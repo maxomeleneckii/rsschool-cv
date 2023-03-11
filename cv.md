@@ -21,3 +21,4 @@ function betterThanAverage(classPoints, yourPoints) {
 7. Languages:
   * Russian;
   * English;
+  * English;
